@@ -29,8 +29,8 @@ namespace GameCanvas
         public int FPS = 30; // The frames per second
         public int ViewX = 0; // The viewport X position
         public int ViewY = 0; // The viewport Y position
-        public int ViewW = 320; // The viewport width
-        public int ViewH = 240; // The viewport height
+        public int ViewW = 640; // The viewport width
+        public int ViewH = 480; // The viewport height
         public Color BackgroundColor = Color.LightGray; // The background clear color
 
         //private Graphics g; // Main drawing graphics to show the drawn frames
@@ -65,7 +65,7 @@ namespace GameCanvas
             // Clear the canvas
             bufferGraphics.Clear(BackgroundColor);
 
-            // DO STUFF Here
+            // DO STUFF HERE
 
             // Perform the loop event on the objects
             if(objects.Count > 0) // If there are objects in the list
@@ -117,8 +117,6 @@ namespace GameCanvas
                 DrawGui(this);
             }
 
-            bufferGraphics.DrawLine(Pens.Red, 0, 0, ViewW, ViewH);
-
             // Draw the image to the canvas
             //g.DrawImage(bufferImage, 0, 0, Width, Height);
             Image = bufferImage;
@@ -165,6 +163,40 @@ namespace GameCanvas
         public Graphics GetGraphics
         {
             get { return (bufferGraphics); }
+        }
+
+        // Math stuff
+
+        /// <summary>
+        /// Degrees to Radians (With a +90 to make it angle so 0 is to the right)
+        /// </summary>
+        /// <param name="x"></param>
+        /// <returns></returns>
+        public float degtorad(float x)
+        {
+            return (float)((x + 90) * Math.PI / 180);
+        }
+
+        /// <summary>
+        /// Return the X position along a direction with the set length
+        /// </summary>
+        /// <param name="length"></param>
+        /// <param name="direction"></param>
+        /// <returns></returns>
+        public float LengthDirX(float length, float direction)
+        {
+            return (float)(length * Math.Sin(degtorad(direction)));
+        }
+
+        /// <summary>
+        /// Return the Y position along a direction with the set length
+        /// </summary>
+        /// <param name="length"></param>
+        /// <param name="direction"></param>
+        /// <returns></returns>
+        public float LengthDirY(float length, float direction)
+        {
+            return (float)(length * Math.Cos(degtorad(direction)));
         }
     }
 }

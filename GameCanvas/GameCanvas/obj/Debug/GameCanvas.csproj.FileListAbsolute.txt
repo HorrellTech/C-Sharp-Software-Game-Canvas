@@ -9,3 +9,14 @@ C:\Users\Syn\source\repos\GameCanvas\GameCanvas\obj\Debug\GameCanvas.csproj.Core
 C:\Users\Syn\source\repos\GameCanvas\GameCanvas\obj\Debug\GameCanvas.exe
 C:\Users\Syn\source\repos\GameCanvas\GameCanvas\obj\Debug\GameCanvas.pdb
 C:\Users\Syn\source\repos\GameCanvas\GameCanvas\obj\Debug\GameCanvas.Form1.resources
+C:\Users\Syn\source\repos\C-Sharp-Software-Game-Canvas\GameCanvas\GameCanvas\bin\Debug\GameCanvas.exe.config
+C:\Users\Syn\source\repos\C-Sharp-Software-Game-Canvas\GameCanvas\GameCanvas\bin\Debug\GameCanvas.exe
+C:\Users\Syn\source\repos\C-Sharp-Software-Game-Canvas\GameCanvas\GameCanvas\bin\Debug\GameCanvas.pdb
+C:\Users\Syn\source\repos\C-Sharp-Software-Game-Canvas\GameCanvas\GameCanvas\obj\Debug\GameCanvas.csprojAssemblyReference.cache
+C:\Users\Syn\source\repos\C-Sharp-Software-Game-Canvas\GameCanvas\GameCanvas\obj\Debug\GameCanvas.Canvas.resources
+C:\Users\Syn\source\repos\C-Sharp-Software-Game-Canvas\GameCanvas\GameCanvas\obj\Debug\GameCanvas.Form1.resources
+C:\Users\Syn\source\repos\C-Sharp-Software-Game-Canvas\GameCanvas\GameCanvas\obj\Debug\GameCanvas.Properties.Resources.resources
+C:\Users\Syn\source\repos\C-Sharp-Software-Game-Canvas\GameCanvas\GameCanvas\obj\Debug\GameCanvas.csproj.GenerateResource.cache
+C:\Users\Syn\source\repos\C-Sharp-Software-Game-Canvas\GameCanvas\GameCanvas\obj\Debug\GameCanvas.csproj.CoreCompileInputs.cache
+C:\Users\Syn\source\repos\C-Sharp-Software-Game-Canvas\GameCanvas\GameCanvas\obj\Debug\GameCanvas.exe
+C:\Users\Syn\source\repos\C-Sharp-Software-Game-Canvas\GameCanvas\GameCanvas\obj\Debug\GameCanvas.pdb
